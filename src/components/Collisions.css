@@ -1,0 +1,81 @@
+.collisions-section {
+    width: 100%;
+    height: 100vh;
+    background: url('/assets/valorant-bg-collision.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .collisions-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90%;
+  }
+  
+  .collisions-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .collisions-header p {
+    font-size: 1.25rem;
+  }
+  
+  .collisions-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .collisions-card {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .collisions-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .collisions-card h2 {
+    margin-top: 15px;
+    font-size: 1.75rem;
+  }
+  
+  .collisions-card p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .collisions-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .collisions-btn {
+    padding: 10px 20px;
+    background-color: #9fdeaf;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .collisions-btn:hover {
+    background-color: #96dbe2;
+  }
+  

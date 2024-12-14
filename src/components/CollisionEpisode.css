@@ -1,0 +1,70 @@
+/* Container for the entire section */
+.collision-episode {
+    width: 100%;
+    height: 100vh;
+    background: url('/accets/CollisionsImg.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  
+  /* Content container */
+  .collision-content {
+    z-index: 1;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+  }
+  
+  /* Title style */
+  .collision-title {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Episode info */
+  .episode-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #9fdeaf;
+  }
+  
+  .episode-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Learn More button */
+  .learn-more-btn {
+    padding: 15px 30px;
+    background-color: #9fdeaf;
+    color: #333;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #96dbe2;
+  }
+  
+  .learn-more-btn:focus {
+    outline: none;
+  }
+  

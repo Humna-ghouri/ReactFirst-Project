@@ -1,0 +1,93 @@
+/* Container for the entire section */
+.we-are-valorant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* White background */
+    height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Content wrapper to hold both text and image */
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between; /* This will place text on the left and image on the right */
+    align-items: center; /* Align items vertically center */
+    width: 100%;
+    max-width: 1200px; /* Restrict max width */
+    height: 100%;
+  }
+  
+  /* Text content section */
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%; /* Adjust the width of text */
+    padding: 20px;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #1a1a1a; /* Dark color for title */
+  }
+  
+  /* Section Subtitle */
+  .section-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9fdeaf; /* Highlight color */
+    margin-bottom: 20px;
+  }
+  
+  /* Section Description */
+  .section-description {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #333; /* Dark text for better readability */
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+  
+  /* Button style */
+  .learn-btn {
+    padding: 15px 30px;
+    background-color: #9fdeaf;
+    color: #333;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-btn:hover {
+    background-color: #96dbe2;
+  }
+  
+  .learn-btn:focus {
+    outline: none;
+  }
+  
+  /* Right side image */
+  .image-content {
+    max-width: 300px; /* Adjust the size of the image */
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    margin-left: 230px;
+ }
+  
+  .section-image {
+    width: 20%; /* Image takes the full width of the container */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px; /* Optional: adds rounded corners */
+  }
+  

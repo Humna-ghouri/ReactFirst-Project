@@ -1,0 +1,75 @@
+/* Container for the entire section */
+.your-agents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/accets/jett.jpg'); /* Replace with your image path */
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  /* Content wrapper */
+  .content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px; /* Restrict max width */
+    height: 100%;
+  }
+  
+  /* Text content section */
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%; /* Adjust the width to your preference */
+    padding: 5px;
+    /* background: rgba(0, 0, 0, 0.6); Dark background for text area */
+    border-radius: 15px;
+    margin-right: 20px; /* Space between the text and right edge */
+  }
+  
+  /* Title style */
+  .agents-title {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #9fdeaf;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Description text */
+  .agents-description {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #d4d4d4;
+  }
+  
+  /* Button style */
+  .view-all-btn {
+    padding: 15px 30px;
+    background-color: #9fdeaf;
+    color: #333;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-all-btn:hover {
+    background-color: #96dbe2;
+  }
+  
+  .view-all-btn:focus {
+    outline: none;
+  }
+  
+  
