@@ -1,4 +1,5 @@
 /* Container for the entire section */
+/* Base styling for large screens (default) */
 .collision-episode {
     width: 100%;
     height: 100vh;
@@ -13,7 +14,6 @@
     overflow: hidden;
   }
   
-  /* Content container */
   .collision-content {
     z-index: 1;
     position: relative;
@@ -24,7 +24,6 @@
     border-radius: 15px;
   }
   
-  /* Title style */
   .collision-title {
     font-size: 4rem;
     font-weight: bold;
@@ -35,36 +34,119 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
   
-  /* Episode info */
-  .episode-info h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #9fdeaf;
+  /* Responsive Media Queries */
+  
+  /* Medium screens: max-width 1024px */
+  @media (max-width: 1024px) {
+    .collision-title {
+      font-size: 3rem;
+      letter-spacing: 3px;
+    }
+  
+    .episode-info h2 {
+      font-size: 1.8rem;
+    }
+  
+    .episode-info p {
+      font-size: 1rem;
+    }
+  
+    .learn-more-btn {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
   }
   
-  .episode-info p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+  /* Small screens: max-width 768px */
+  @media (max-width: 768px) {
+    .collision-content {
+      max-width: 600px;
+    }
+  
+    .collision-title {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+  
+    .episode-info h2 {
+      font-size: 1.6rem;
+    }
+  
+    .learn-more-btn {
+      padding: 10px 20px;
+      font-size: 0.95rem;
+    }
   }
   
-  /* Learn More button */
-  .learn-more-btn {
-    padding: 15px 30px;
-    background-color: #9fdeaf;
-    color: #333;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  /* Extra small screens: max-width 480px */
+  @media (max-width: 480px) {
+    .collision-content {
+      padding: 15px;
+    }
+  
+    .collision-title {
+      font-size: 2rem;
+    }
+  
+    .episode-info h2 {
+      font-size: 1.4rem;
+    }
+  
+    .episode-info p {
+      font-size: 0.9rem;
+    }
+  
+    .learn-more-btn {
+      padding: 8px 18px;
+      font-size: 0.85rem;
+    }
   }
   
-  .learn-more-btn:hover {
-    background-color: #96dbe2;
+  /* Ultra small screens: max-width 320px */
+  @media (max-width: 320px) {
+    .collision-content {
+      padding: 10px;
+    }
+  
+    .collision-title {
+      font-size: 1.5rem;
+    }
+  
+    .episode-info h2 {
+      font-size: 1.2rem;
+    }
+  
+    .episode-info p {
+      font-size: 0.8rem;
+    }
+  
+    .learn-more-btn {
+      padding: 6px 15px;
+      font-size: 0.75rem;
+    }
   }
   
-  .learn-more-btn:focus {
-    outline: none;
+  /* Minimum screens: max-width 230px */
+  @media (max-width: 230px) {
+    .collision-content {
+      padding: 5px;
+    }
+  
+    .collision-title {
+      font-size: 1.2rem;
+    }
+  
+    .episode-info h2 {
+      font-size: 1rem;
+    }
+  
+    .episode-info p {
+      font-size: 0.7rem;
+    }
+  
+    .learn-more-btn {
+      padding: 4px 10px;
+      font-size: 0.7rem;
+    }
   }
   

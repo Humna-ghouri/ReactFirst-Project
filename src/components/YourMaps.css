@@ -51,3 +51,143 @@
     margin-left: 80px;
   }
   
+  /* Responsive Media Queries */
+  
+  /* Medium screens: max-width 1024px */
+  @media (max-width: 1024px) {
+    .content {
+      max-width: 60%; /* Adjust width to fit content */
+      margin-left: 30px; /* Reduced margin */
+    }
+  
+    .content h2 {
+      font-size: 2.2rem;
+    }
+  
+    .content h3 {
+      font-size: 1.6rem;
+    }
+  
+    .content p {
+      font-size: 1.1rem;
+    }
+  
+    .content button {
+      font-size: 0.95rem;
+    }
+  
+    .image img {
+      max-width: 50%; /* Image width reduced */
+      margin-left: 30px;
+    }
+  }
+  
+  /* Small screens: max-width 768px */
+  @media (max-width: 768px) {
+    .maps-section {
+      flex-direction: column; /* Stack content and image */
+      height: auto; /* Adjust height to auto */
+      padding: 20px;
+    }
+  
+    .content {
+      max-width: 100%; /* Content takes full width */
+      margin-left: 0;
+      text-align: center; /* Center the text */
+    }
+  
+    .content h2 {
+      font-size: 1.8rem;
+    }
+  
+    .content h3 {
+      font-size: 1.4rem;
+    }
+  
+    .content p {
+      font-size: 1rem;
+    }
+  
+    .content button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .image img {
+      max-width: 100%; /* Image takes full width */
+      margin-left: 0;
+    }
+  }
+  
+  /* Extra small screens: max-width 480px */
+  @media (max-width: 480px) {
+    .content h2 {
+      font-size: 1.6rem;
+    }
+  
+    .content h3 {
+      font-size: 1.3rem;
+    }
+  
+    .content p {
+      font-size: 0.9rem;
+    }
+  
+    .content button {
+      padding: 6px 12px;
+      font-size: 0.85rem;
+    }
+  
+    .image img {
+      max-width: 100%; /* Image width adjusted */
+    }
+  }
+  
+  /* Ultra small screens: max-width 320px */
+  @media (max-width: 320px) {
+    .content h2 {
+      font-size: 1.4rem;
+    }
+  
+    .content h3 {
+      font-size: 1.1rem;
+    }
+  
+    .content p {
+      font-size: 0.8rem;
+    }
+  
+    .content button {
+      padding: 5px 10px;
+      font-size: 0.75rem;
+    }
+  
+    .image img {
+      max-width: 100%; /* Image width adjusted */
+    }
+  }
+  
+  /* Minimum screens: max-width 230px */
+  @media (max-width: 230px) {
+    .content h2 {
+      font-size: 1.2rem;
+    }
+  
+    .content h3 {
+      font-size: 1rem;
+    }
+  
+    .content p {
+      font-size: 0.75rem;
+    }
+  
+    .content button {
+      padding: 4px 8px;
+      font-size: 0.7rem;
+    }
+  
+    .image img {
+      max-width: 100%; /* Image width adjusted */
+    }
+  }
+  
